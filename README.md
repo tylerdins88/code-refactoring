@@ -1,4 +1,4 @@
-# Horiseon Marketing Agency Webpage Defactor
+# Horiseon Marketing Agency Webpage Refactor
 
 ## Description
 
