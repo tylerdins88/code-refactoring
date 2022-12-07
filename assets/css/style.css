@@ -1,13 +1,16 @@
+/* This is styling applied to the entire page, it sets the page to go to the corners and not have spacing.  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* This is styling that is applied only to the body, it changes the background color. */
 body {
     background-color: #d9dcd6;
 }
 
+/* This sets the font for the header as well as background color and color. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,41 +18,40 @@ header {
     color: #ffffff;
 }
 
+/* This sets the size of the font in the header and keeps the title in a line.  */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This styling sets the color for some of the font in the title. */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* This sets the styling for the links in the header. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-header nav ul {
     list-style-type: none;
 }
 
+/* This makes the links line up horizontally. */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Color of the links. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* This puts a picture in the center of the page and styles its size.  */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,55 +61,31 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* This sets the size of the "content" section and lines it up 20px left of the start of the page. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
+/* Font size for all paragraphs */
+p {
+    font-size: 16px;
+}
+
+/* CSS property to have the image float to the left. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* CSS property to have the image float to the right. */
+.float-right {
     float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    margin-left: 25px;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* This is styling for the articles of the "content" section. Gives it its font style, colors, and spacing. */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -119,12 +97,14 @@ p {
     color: #ffffff;
 }
 
+/* This sets the heights of the images in the "content" section. */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Changes the font of the header. */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -132,13 +112,52 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* This sets the porperties of the "benefits aside" section. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Setting the color and spacing for all articles in the benefits aside. */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* This is setting the header text to the center and giving it spacing. */
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Giving the images in the benefits aside size and how to be displayed. */
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Setting the font style and display. */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* Enlarging the footer font. */
+footer h2 {
     font-size: 20px;
 }
